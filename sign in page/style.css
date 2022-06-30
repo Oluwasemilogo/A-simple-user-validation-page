@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.main-container{
+    width: 100vw;
+    background-color: #3949AB;
+    height: 100vh;
+    /* margin-top: 25px;
+    margin-left: 100px; */
+}
+h2{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 2em;
+}
+.container{
+    border: 1px solid white;
+    width: 60%;
+    height: 400px;
+    position: relative;
+    margin-bottom: 80px;
+    top: 5.5em;
+    left: 15em;
+    display: inline-flex;
+    border-radius: 10px;
+}
+.design{
+    width: 60%;
+    height: 100%;
+    background-color: transparent;
+    /* position: sticky; */
+}
+.logo{
+    padding: 10px;
+    /* position: relative;
+    top: 1em;
+    left: 1em; */
+
+}
+.logo > img{
+    width: 120px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.art{
+    display: flex;
+    justify-content: center;
+}
+.art > img{
+    width: 160px;
+    height: 160px;
+}
+.sign-in{
+    width: 40%;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+.oldheader{
+    text-align: center;
+    margin-top: 30px;
+    display: block;
+}
+.newheader{
+        text-align: center;
+            margin-top: 30px;
+            display: none;
+}
+.googletext{
+    text-align: center;
+    margin-top: 40px;
+}
+.gittext{
+    text-align: center;
+    margin-top: 40px;
+}
+h5{
+    font-size: 8px;
+    color: #3949AB;
+    text-align: right;
+    margin-top: 5px;
+    margin-right: 25px;
+    font-weight: 400;
+}
+.or{
+    font-size: 10px;
+        color: #3949AB;
+        text-align: center;
+        margin-top: 5px;
+        margin-left: 24px;
+        font-weight: 400;
+}
+.already{
+    font-size: 12px;
+    text-align: center;
+    margin-left: 5px;
+    margin-top: 8px;
+}
+.login{
+    border-radius: 8px;
+        width: 250px;
+        height: 30px;
+        margin-top: 15px;
+        margin-left: 20px;
+        background-color: #3949AB;
+        font-size: 10px;
+        border: none;
+        cursor: pointer;
+        color: white;
+}
+.register{
+    border-radius: 8px;
+        width: 250px;
+        height: 30px;
+        margin-top: 15px;
+        margin-left: 20px;
+        font-size: 10px;
+        border: 1px solid #3949AB;
+        cursor: pointer;
+        color: #3949AB;
+        background-color: white;
+}
+p{
+    color: white;
+    text-align: center;
+}
+h6{
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    margin-top: 5px;
+}
+.circle{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 1em;
+}
+.circle > img{
+    width: 30px;
+    height: 10px;
+}
+.torus > img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    filter: blur(0.5px);
+    animation: rotate 12s ease-in-out alternate infinite;
+}
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.torus{
+    display: flex;
+    justify-content: left;
+    position: relative;
+    top: 14em;
+    padding-left: 12.5em;
+}  
+.user{
+    border: 1.5px solid #D0D0D0;
+        border-radius: 8px;
+        width: 250px;
+        height: 30px;
+        margin-top: 10px;
+        margin-left: 20px;
+        display: flex;
+        font-size: 10px;
+}
+.user::placeholder{
+    border: none;
+} 
+.user:focus {
+    outline: none;
+}
+.user input:focus {
+    outline: none;
+}
+.user input {
+    border: none;
+    color: #3949AB;
+}
+.user > img{
+    width: 22px;
+    height: 22px;
+    margin-top: 5px;
+}
+.user2{
+        margin-top: 10px;
+        margin-left: 20px;
+        display: flex;
+        font-size: 10px;
+}
+.user2::placeholder {
+    border: none;
+}
+
+.user2:focus {
+    outline: none;
+}
+
+.user2 input:focus {
+    outline: none;
+}
+
+.user2 input {
+            border: 1.5px solid #D0D0D0;
+            border-radius: 8px;
+            width: 250px;
+            height: 30px;
+    color: #3949AB;
+}
+.google{
+    border-radius: 8px;
+        width: 120px;
+        height: 30px;
+        margin-top: 10px;
+        margin-left: 20px;
+        font-size: 10px;
+        border: 1px solid #3949AB;
+        color: #3949AB;
+        background-color: white;
+        cursor: pointer;
+}
+.gitlab{
+    border-radius: 8px;
+        width: 120px;
+        height: 30px;
+        margin-top: 10px;
+        margin-left: 20px;
+        background-color: white;
+        font-size: 10px;
+        border: 1px solid #3949AB;
+        color: #3949AB;
+        cursor: pointer;
+}
+.others{
+    display: flex;
+}
+.others > .google > h4 {
+    font-size: 13px;
+    position: relative;
+    bottom: 4.8em;
+    font-weight: 300;
+}
+.others > .gitlab > h4{
+    font-size: 13px;
+        position: relative;
+        bottom: 4.8em;
+        font-weight: 300;
+}
+.others > .google > img{
+    margin-left: 10px;
+    /* width: 20px;
+    height: 20px; */
+}
+.others > .gitlab > img{
+    margin-left: 10px;
+}
+.newpart1{
+    display: none;
+}
+.newpart2{
+    display: none;
+}
+.signup{
+    border-radius: 8px;
+        width: 250px;
+        height: 30px;
+        margin-top: 15px;
+        margin-left: 20px;
+        background-color: #3949AB;
+        font-size: 10px;
+        border: none;
+        cursor: pointer;
+        color: white;
+}
+.login2{
+    border-radius: 8px;
+        width: 250px;
+        height: 30px;
+        margin-top: 15px;
+        margin-left: 20px;
+        font-size: 10px;
+        border: 1px solid #3949AB;
+        cursor: pointer;
+        color: #3949AB;
+        background-color: white;
+}
