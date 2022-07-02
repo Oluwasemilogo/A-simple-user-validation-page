@@ -6,30 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>Sign In page</title>
-    <script src="/script.js" defer></script>
+    <script src="./script.js" defer></script>
 </head>
 <body>
     <div class="main-container">
-        <h2>Simple Sign in page</h2><div class="torus"><img src="/iconsImages/torus.png" alt=""></div>
+        <h2>Simple Sign in page</h2><div class="torus">
+            <img class="torusImg" src="./iconsImages/torus.png" alt=""></div>
         <div class="container">
             <div class="design">
             <div class="logo"><img src="./iconsImages/SpecLogo new.png" alt=""></div>
             <div class="art"><img src="./iconsImages/Art.png" alt=""></div>
-<p>Welcome aboad my Friend</p>
+<p class="welcome_back">Welcome aboad my Friend</p>
 <h6>Just a couple of clicks and we start</h6>
 
-<div class="circle"><img src="/iconsImages/Pager.png" alt=""></div>
+<div class="circle"><img src="./iconsImages/Pager.png" alt=""></div>
             </div>
             <div class="sign-in">
                 <h4 class="oldheader">Welcome</h4>
                 <h4 class="newheader">Create Account</h4>
                 <div class="oldpart1">
                 <div class="user">
-                <img src="/iconsImages/emial.png" alt="">   
-            <input type="text" id="username" placeholder=" Email"></div>
+                <img  src="./iconsImages/emial.png" alt="">   
+            <input type="text" id="oldEmail" placeholder=" Email"></div>
+            <p class="incorrectDetails"></p>
             <div class="user">
-                <img src="/iconsImages/lock.png" alt="">
-                <input type="password" id="pword" placeholder=" Password">
+                <img src="./iconsImages/lock.png" alt="">
+                <input type="password" id="oldpword" placeholder=" Password">
             </div>
             <h5>Forgot password?</h5>
             <button class="login">Log in</button>
@@ -46,13 +48,14 @@
     <div class="user2">
         <!-- <img src="/iconsImages/lock.png" alt=""> -->
         <input type="text" id="Uname" placeholder="Username">
+        <p class="userErr"></p>
     </div>
 </div>
             <div class="oldpart2">
             <h5 class="or">or</h5>
             <div class="others">
-                <div class="google"><img src="/iconsImages/Google.png" alt=""> <h4 class="googletext">Google</h4></div>
-            <div class="gitlab"> <img src="/iconsImages/gitlab.png" alt=""> <h4 class="gittext">Gitlab</h4></div>
+                <div class="google"><img src="./iconsImages/Google.png" alt=""> <h4 class="googletext">Google</h4></div>
+            <div class="gitlab"> <img src="./iconsImages/gitlab.png" alt=""> <h4 class="gittext">Gitlab</h4></div>
             </div>
             <h5 class="or">Have no account yet?</h5>
             <button class="register">Register</button>
@@ -60,11 +63,12 @@
 <div class="newpart2">
 <div class="user2">
     <!-- <img src="/iconsImages/emial.png" alt=""> -->
-    <input type="text" id="username" placeholder=" Email">
+    <input type="text" id="emial" placeholder=" Email">
+    <p class="emailErr"></p>
 </div>
 <div class="user2">
     <!-- <img src="/iconsImages/lock.png" alt=""> -->
-    <input type="password" id="pword" placeholder=" Password">
+    <input type="password" id="paword" placeholder=" Password">
 </div>
 <button class="signup">Sign up</button>
 <h5 class="already">Already Registered?</h5>
@@ -72,6 +76,7 @@
 </div>
             </div>
         </div>
+        <div class="torus2"><img src="./iconsImages/torus.png" alt="" class="torusImg2"></div>
     </div>
 </body>
 </html>
